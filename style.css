@@ -1,372 +1,385 @@
-h2 > *, h2 > *:after, h2 > *:before {
+h2>*,
+h2>*:after,
+h2>*:before {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-  }
-  * {margin: 0;padding:0;border:0 none;position: relative; outline: none;
-  }
+}
 
-h2 > a:before {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    position: relative;
+    outline: none;
+}
+
+h2>a:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 2px;
     bottom: -2px;
-    left:0;
+    left: 0;
     background: #fd4345;
     visibility: hidden;
     border-radius: 1px;
     transform: scaleX(0);
     transition: .30s linear;
-  }
-h2 > a:hover:before,
-h2 > a:focus:before {
-    visibility: visible;
-    transform: scaleX(1);
-  }
-.nom{
-    color:#fd4345;
-    opacity:90%;
-}
-header{
-    background-color:white;
-    color: #fd4345;
-    min-height:80px;
-    font-family: 'Quicksand', sans-serif;
-    text-align:center;
 }
 
-header div{
+h2>a:hover:before,
+h2>a:focus:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.nom {
+    color: #fd4345;
+    opacity: 90%;
+}
+
+header {
+    background-color: white;
+    color: #fd4345;
+    min-height: 80px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+header div {
     align-self: center;
 }
 
-header a{
-    color:#1e2e40;
-    font-weight:bold;
+header a {
+    color: #1e2e40;
+    font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
     color: #fd4345;
-    text-decoration:none; 
+    text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #fd4345;
-    text-decoration:none; 
+    text-decoration: none;
 }
 
-.red{
-    color:#fd4345;
+.red {
+    color: #fd4345;
 }
 
-.blue{
-    color:#1e2e40;
+.blue {
+    color: #1e2e40;
 }
 
-.grey{
-    color:#DCDCDC;
+.grey {
+    color: #DCDCDC;
 }
 
-a{
-    color:white;
+a {
+    color: white;
 }
 
-header button{
-    background-color:#fd4345;
-    height:auto;
-    color:#0B0C10;
-    font-size:20px;
+header button {
+    background-color: #fd4345;
+    height: auto;
+    color: #0B0C10;
+    font-size: 20px;
 }
 
-body{
-    background-color:#1e2e40;
+body {
+    background-color: #1e2e40;
 }
 
-header > div > div > h2 > a{
-    padding:0 15px 0 15px;
-    font-size:25px;
+header>div>div>h2>a {
+    padding: 0 15px 0 15px;
+    font-size: 25px;
 }
 
-figure{
-    text-align:center;
-    font-size:28px;
-    padding:1px;
+figure {
+    text-align: center;
+    font-size: 28px;
+    padding: 1px;
     justify-content: center;
 }
 
-figure figcaption{
-    text-align:center;
+figure figcaption {
+    text-align: center;
 }
 
-figure img{
-    height:220px;
+figure img {
+    height: 220px;
 }
 
-.section1{
-    margin:45px 0 0 0;
-    color:#C5C6C7;
-    font-size:20px;
+.section1 {
+    margin: 45px 0 0 0;
+    color: #C5C6C7;
+    font-size: 20px;
 }
 
 .section1 h2,
-.section1 h1{
-    font-size:20px;
+.section1 h1 {
+    font-size: 20px;
 }
 
-.gr{
-    color:#45A29E;
-    font-size:25px;
+.gr {
+    color: #45A29E;
+    font-size: 25px;
 }
 
-.imp{
-    color:#fd4345;
-    font-size:21px;
+.imp {
+    color: #fd4345;
+    font-size: 21px;
 }
 
-p{
-    font-size:20px;
+p {
+    font-size: 20px;
 }
 
-.white{
-    color:white;
-}
-.blanc{
-    color:#C5C6C7;
+.white {
+    color: white;
 }
 
-.bleu{
-    color:#66FCF1;
+.blanc {
+    color: #C5C6C7;
 }
 
-.bleuf{
-    color:#fd4345;
+.bleu {
+    color: #66FCF1;
 }
-.section2{
+
+.bleuf {
+    color: #fd4345;
+}
+
+.section2 {
     background-color: #1e2e40;
-    padding:45px 0;
-    font-size:25px;
+    padding: 45px 0;
+    font-size: 25px;
 }
 
-.gris{
-    color:#1F2833;
+.gris {
+    color: #1F2833;
 }
 
-h1{
-    font-size:35px;
-    color:#fd4345;
-    text-align:center;
+h1 {
+    font-size: 35px;
+    color: #fd4345;
+    text-align: center;
 }
 
-.section2 h2{
-    text-align:center;
+.section2 h2 {
+    text-align: center;
     text-decoration: underline;
     text-decoration-color: #fd4345;
-    padding:15px 0;
+    padding: 15px 0;
 }
 
-.section2 img{
-    position:right;
-    height:75px;
-    margin:17px 0;
+.section2 img {
+    position: right;
+    height: 75px;
+    margin: 17px 0;
 }
 
-.paddingsysteme{
-    padding-left:31%;
+.paddingsysteme {
+    padding-left: 31%;
 }
 
-.paddingprogrammation{
-    padding-left:27%;
+.paddingprogrammation {
+    padding-left: 27%;
 }
 
-.paddingdev{
-    padding-left:27%;
+.paddingdev {
+    padding-left: 27%;
 }
 
-.section3{
+.section3 {
     background-color: white;
-    color:#1e2e40;
+    color: #1e2e40;
 }
 
-.section3 p{
+.section3 p {
     line-height: 32px;
     font-size: 18px;
 }
 
-.section3 h1{
-    text-align:center;
-    margin-bottom:25px;
+.section3 h1 {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.section3 h3{
-    color:#fd4345;
-    font-size:20px;
+.section3 h3 {
+    color: #fd4345;
+    font-size: 20px;
 }
 
-.section3 > div > div > div > p{
-    padding-left:22px;
-    
+.section3>div>div>div>p {
+    padding-left: 22px;
+
 }
 
-.noir{
-    color:#0B0C10;
+.noir {
+    color: #0B0C10;
 }
 
-.section3 h4{
-    padding-left:15%;
+.section3 h4 {
+    padding-left: 15%;
 }
 
 
-footer{
-    background-color:#0B0C10;
-    color:#C5C6C7;
-    text-align:center;
-    padding:10px;
-    font-size:22px;
+footer {
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
 }
 
-footer p{
-    margin-top:10px;
+footer p {
+    margin-top: 10px;
 }
 
-.projets body{
-    background-color:#1e2e40;
+.projets body {
+    background-color: #1e2e40;
 }
 
-.projets section{
-    margin:25px 0;
+.projets section {
+    margin: 25px 0;
 }
 
-.projets article{
-    background-color:white;
-    border:solid black;
-    padding:15px 0;
-    margin-bottom:20px;
-    height:100%;
+.projets article {
+    background-color: white;
+    border: solid black;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    height: 100%;
 }
 
-.row2{
-    background-color:white;
-    padding-top:25px;
+.row2 {
+    background-color: white;
+    padding-top: 25px;
 }
 
-.projets img{
-    width:90%;
-    height:auto;
+.projets img {
+    width: 90%;
+    height: auto;
 }
 
-.projets figure{
-    align-items:center;
+.projets figure {
+    align-items: center;
 }
 
-.projets article > div{
-    padding:0 5%;
+.projets article>div {
+    padding: 0 5%;
 }
 
-.projets article h2{
-    font-size:25px;
+.projets article h2 {
+    font-size: 25px;
 }
 
-.projets article p{
-    font-size:19px;
-    line-height:100%;
+.projets article p {
+    font-size: 19px;
+    line-height: 100%;
 }
 
-.projets div > img{
-    width:15%;
+.projets div>img {
+    width: 15%;
 }
 
-.projets article h3{
-    font-size:19px;
+.projets article h3 {
+    font-size: 19px;
 }
 
-.cp figure{
-    align-items:center;
+.cp figure {
+    align-items: center;
 }
 
 button a,
-button a:hover{
-    color:#0B0C10;
+button a:hover {
+    color: #0B0C10;
 }
 
-.bgnoir{
+.bgnoir {
     background-color: #0B0C10;
 }
 
-body > div > h1{
-    font-size:45px;
-    margin-top:25px;
+body>div>h1 {
+    font-size: 45px;
+    margin-top: 25px;
 }
 
-.menu{
-    min-height:60px;
-    min-width:60px;
-    max-height:80px;
-    max-width:80px;
-    padding-left:15px;
-    
+.menu {
+    min-height: 60px;
+    min-width: 60px;
+    max-height: 80px;
+    max-width: 80px;
+    padding-left: 15px;
+
 }
 
-.menu2{
-    font-size:45px;
+.menu2 {
+    font-size: 45px;
     background-color: #0B0C10;
-    
+
 }
 
-.menu2 a{
-    color:white;
-    padding:auto;
+.menu2 a {
+    color: white;
+    padding: auto;
 }
 
-.menu2 a:active{
-    color:white;
+.menu2 a:active {
+    color: white;
     background-color: #0B0C10;
 }
 
 
-.sectionperso{
-    background-color:white;
+.sectionperso {
+    background-color: white;
 }
 
-.sectionperso .nom{
+.sectionperso .nom {
     text-align: center;
     font-weight: bold;
 }
 
 /*--*/
 
-.hideme1
-{
-    opacity:0;
-    -webkit-transition: all 1s ease; transition: all 1s ease;
+.hideme1 {
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .showme {
-  opacity:1!important;
+    opacity: 1 !important;
 }
 
-.hideme2
-{
-    opacity:0;
-    -webkit-transition: all 1s ease; transition: all 1s ease 0.45s;
+.hideme2 {
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease 0.45s;
 }
 
-.hideme3
-{
-    opacity:0;
-    -webkit-transition: all 1s ease; transition: all 1s ease 0.90s;
+.hideme3 {
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease 0.90s;
 }
 
-.grey2{
-    color:grey;
+.grey2 {
+    color: grey;
 }
 
-.first img{
-    padding:0;
-    height:700px;
-    object-fit:cover;
+.first img {
+    padding: 0;
+    height: 700px;
+    object-fit: cover;
 }
 
-.first{
-    text-align:center;
+.first {
+    text-align: center;
 }
 
 .texte_centrer {
@@ -374,18 +387,18 @@ body > div > h1{
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:45px;
-    color:#1e2e40;
-    font-weight:bold;
+    font-size: 45px;
+    color: #1e2e40;
+    font-weight: bold;
     font-family: 'Quicksand', sans-serif;
 }
 
-.text_centrer p{
-    font-size:38px;
+.text_centrer p {
+    font-size: 38px;
 }
 
-.projet{
-    background-color:white;
+.projet {
+    background-color: white;
 }
 
 .fade-in-text {
@@ -394,29 +407,216 @@ body > div > h1{
     -moz-animation: fadeIn linear 2s;
     -o-animation: fadeIn linear 2s;
     -ms-animation: fadeIn linear 2s;
-  }
-  
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #fd4345;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.contain {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.contain::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #1e2e40;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #1e2e40;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #1e2e40;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #1e2e40;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #1e2e40 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: #1e2e40;
+    position: relative;
+    border-radius: 6px;
+    color: white;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .contain {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .contain::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+.section4 {
+    background-color: #1e2e40;
+    color: white;
+}
+
+.section4 p {
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.section4 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section4 h3 {
+    color: #fd4345;
+    font-size: 30px;
+}
+
+.section4>div>div>div>p {
+    padding-left: 22px;
+
+}
+
+.section4 h4 {
+    padding-left: 15%;
+}
